@@ -8,6 +8,7 @@
 
 html {
   font-size: 14px;
+  background-color: #000000;
 }
 
 @media (min-width: 768px) {
@@ -18,10 +19,13 @@ html {
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+  text-align: center;
 }
 
 body {
   margin-bottom: 60px;
-  background-color: #000000;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #00acff;
   color: #00dce8;
 }
